@@ -1,0 +1,8 @@
+fio.exe --filename=D\:\d.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=d --output=d.log
+fio.exe --filename=K\:\k.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=k --output=k.log
+fio.exe --filename=J\:\j.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=j --output=j.log
+fio.exe --filename=E\:\e.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=e --output=e.log
+fio.exe --filename=G\:\g.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=g --output=g.log
+fio.exe --filename=L\:\l.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=l --output=l.log
+fio.exe --filename=I\:\i.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=1G --fsync=128  --name=i --output=i.log
+fio.exe --filename=F\:\f.dat --rw=randrw --bs=128K --direct=1 --ioengine=windowsaio --iodepth=16 --verify=crc32c --time_based=1 --runtime=900 --size=2G --fsync=128  --name=f --output=f.log
